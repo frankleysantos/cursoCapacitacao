@@ -9,14 +9,14 @@ if (ENVIRONMENT == 'development') {
 	define("BASE_URL", "http://localhost/desenvolvimento.com/");
 	$config['dbname'] 	= 'db_capacitacao';
 	$config['host']		= 'localhost';
-	$config['dbuser']	= 'suporte';
-	$config['dbpass']	= '#N3wapo2019!';	
+	$config['dbuser']	= '';
+	$config['dbpass']	= '';	
 }else{
 	define("BASE_URL", "https://capacitacao.teofilootoni.mg.gov.br/");
 	$config['dbname'] 	= 'db_capacitacao';
 	$config['host']		= 'localhost';
 	$config['dbuser']	= 'root';
-	$config['dbpass']	= '#N3wc0m2017.';
+	$config['dbpass']	= '';
 }
 
 global $pdo;
